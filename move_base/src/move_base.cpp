@@ -482,6 +482,7 @@ namespace move_base {
 
   MoveBase::~MoveBase(){
     recovery_behaviors_.clear();
+    global_planner_cache_.clear();
 
     delete dsrv_;
 
